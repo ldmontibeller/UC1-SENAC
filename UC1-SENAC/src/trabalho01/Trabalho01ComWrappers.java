@@ -17,7 +17,7 @@ public class Trabalho01ComWrappers {
 
 		System.out.println("Bem vindo ao programa de calular média!");
 
-		// Loop infito proposital
+		// Loop infinito proposital
 		while (true) {
 
 			System.out.println("Digite a " + (contadorNota + 1) + "ª nota ou digite SAIR:");
