@@ -1,3 +1,4 @@
+//package fundamentos;
 package trabalho01;
 
 import java.util.Scanner;
@@ -56,9 +57,9 @@ public static void main(String[] args) {
 		//f é a letra para um número com vírgula, que é chamado de ponto flutuante, por isso f
 		//após a vírgula vai a variável que quer trocar
 		System.out.println("Obrigado por utilizar o programa!");
-		// CORREÇÃO! GOSTARIA QUE A MEDIA SEJA EXIBIDA SOMENTE COM DOIS DIGITOS EX: 5,3 NÃO 5,33333
 		
 		entrada.close();
+		//Qual problema esse programa ainda apresenta?
 	}
 }
 
