@@ -20,12 +20,12 @@ public class Produto {
 	
 	//Construtor definido pelo desenvolvedor
 	//Argumentos são passados aos atributos da classe
-	Produto(String nomeInserido, 
-			double precoInserido, 
-			double descontoInserido){
-		nome = nomeInserido;
-		preco = precoInserido;
-		desconto = descontoInserido;			
+	Produto(String nome, 
+			double preco, 
+			double desconto){
+		this.nome = nome;
+		this.preco = preco;
+		this.desconto = desconto;			
 	}
 	
 	//MÉTODOS
@@ -47,8 +47,8 @@ public class Produto {
 	 *Faz mais sentido eu calcular um preço com desconto sem precisar
 	 *instanciar um objeto.
 	 * */
-	static double precoComDesconto(double precoInserido, double descontoInserido) {
-		return precoInserido * (1 - descontoInserido);
+	static double precoComDesconto(double preco, double desconto) {
+		return preco * (1 - desconto);
 	}
 	
 }

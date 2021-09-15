@@ -37,7 +37,9 @@ public static void main(String[] args) {
 				somaTotal += numero; //Pesquise sobre o operador += em Java
 				contadorNota++; //Pesquise sobre operador ++ em Java
 			}//essa chave fecha o bloco caso verdadeiro do if
-			else { //Agora executamos outro bloco de código SENÃO for verdade o que está dentro do if
+			else if(numero == -1) { //Agora executamos outro bloco de código SENÃO for verdade o que está dentro do if
+				//Não faço nada pois o laço while será quebrado
+			} else{
 				//Não ser verdade significa que não é um número válido
 				System.out.println("Nota inválida.");
 			}//essa chave fecha o bloco SENãO for verdadeiro do if

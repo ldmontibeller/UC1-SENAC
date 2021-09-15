@@ -8,8 +8,8 @@ public class CoisasRedondas {
 	double raio;
 	
 	//construtor
-	CoisasRedondas(double raioInserido){
-		raio = raioInserido;
+	CoisasRedondas(double raio){
+		this.raio = raio;
 	}
 	
 	//métodos
