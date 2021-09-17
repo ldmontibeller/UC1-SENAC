@@ -16,7 +16,7 @@ public class Jantar {
 		p1.comerDuranteSemana(feijao);
 		p1.comerDuranteSemana(arroz);
 		
-		System.out.println(p1.peso);
+		System.out.printf("%.2f\n", p1.peso);
 		
 	}
 }

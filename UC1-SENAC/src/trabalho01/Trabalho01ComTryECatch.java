@@ -45,6 +45,7 @@ public class Trabalho01ComTryECatch {
 					contadorNota++;
 				} else {
 					System.out.println("A nota inserida é inválida, tente novamente.");
+					//Baixar a bandeira do erro após ter sido levantada
 					textoInseridoEstaErrado = false;
 				}
 			}
